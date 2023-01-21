@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+        .ana
+      {
+          float: left;
+          border: 1px solid black;
+          width: 750px;
+          height:650px;
+          margin-left: 400px;
+          margin-top: 5px;
+      }
+      .baslik
+      {
+        position: relative;
+        
+        width:700px;
+        left:49px;
+      
+      }
+      h1
+      {
+          margin-left: 20px;
+      }
+      .sol
+      {
+        position: relative;
+          
+          width:50px;
+          height: 650px;
+          top: -80px;
+          background-color: #819FA1;
+      }
+
+      .genel
+      {
+        position: relative;
+        border: 1px solid yellow;
+        width: 280px;
+        height: 550px;
+        top: -1000px;
+         
+      }
+
+      .genelsol
+      {
+        position: relative;
+      
+          width: 250px;
+          height: 550px;
+          top: -652px;
+          left: 50px;
+        
+          background-color: #E5F3F3;
+          
+      }
+      .genelsag
+      {
+        position: relative;
+        
+        width: 440px;
+        height: 550px;
+        top: -1202px;
+        left: 300px;
+        background-color: #E5F3F3;
+         
+      }
+      label
+      {
+         float:left;
+         padding: 5px;
+        
+        
+      }
+      input
+      {
+        position: relative;
+        width: 420px;
+        padding: 3px;
+        top: 1px;
+        
+
+       
+      }
+
+     ::placeholder
+     {
+        position: relative;
+         color:red;
+         text-align: right;
+     }
+     .icerik
+     {
+         position: relative;
+         width: 425px;
+         height:70px;
+         padding: 10px;
+         top: 15px;
+     }
+    
+  </style>
+</head>
+<body>
+    <form action="">
+        <div class="ana">
+            <div class="baslik"><h1>SECMELİ DERS FORMU (Tek Ders)</h1></div>
+            <div class="sol"></div>
+            <div class="genelsol">
+                <label for="ad">ADINIZ</label><br><br><br>
+                <label for="soyad">SOYADINIZ</label><br><br><br>
+                <label for="numara">NUMARANIZ</label><br><br><br>
+                <label for="sinif">SINIFINIZ</label><br><br><br>
+                <label for="sube">ŞUBENİZ</label><br><br><br>
+
+                <label for="dersler">DERSLER<b><br> (BİR TANE DERS<br> SEÇİLECEK) </b></label><br><br><br>
+                
+                <label for="adres"style="position: relative; top:39px; left:-138px">ADRES</label><br><br><br>
+                <label for="veli" style="position: relative; top:45px;">VELİ ADI SOYADI</label><br><br><br>
+                <label for="tarih" style="position: relative; top:40px;">TARİH</label><br><br><br>
+                <label for="imza"style="position: relative; top:17px;">İMZA</label><br><br>
+            </div>
+
+            <div class="genelsag">
+                
+                <input type="text" name="ad" id="ad"   placeholder="*"><br><br>
+                <input type="text" name="soyad" id="soyad"   placeholder="*" style="position: relative; top:10px;"><br><br><br>
+                <input type="text" name="numara" id="numara"   placeholder="*"><br>
+
+                    <div class="icerik">
+                    <select  id="sinif"  placeholder="*" style="position: relative; width: 430px; height: 25px; left: -10px; top: 12px; background-color: white;">
+                        <option value="1.Sınıf">1.Sınıf<option> 
+                        <option value="2.Sınıf">2.Sınıf<option> 
+                        <option value="3.Sınıf">3.Sınıf<option> 
+                        <option value="4.Sınıf">4.Sınıf<option> 
+                        <option value="5.Sınıf">5.Sınıf<option> 
+                        </select> <br><br><br>
+
+                <select id="sube" name="sube" placeholder="*" style="position: relative; width: 430px; height: 25px; left: -10px; top:8px; background-color: white;" >
+                    <option value="A">A Sınıfı</option >            
+                    <option value="B">B Sınıfı</option>
+                    <option value="C">C Sınıfı</option>                  
+                    <option value="D">D Sınıfı</option>
+                    </select> <br>
+                </div><br><br>
+
+                <input type="radio" name="dersler" id="dersler" style="position: relative; left:-205px; top:10px;">
+                <label for="" style="position: relative; left: 20px; top: -13px;">MATEMATİK</label>
+
+                <input type="radio" name="dersler" id="dersler" style="position: relative; left:-205px; top:-20px;">
+                <label for="" style="position: relative; left: 20px; top:-43px;">FİZİK</label>
+
+                <input type="radio" name="dersler" id="dersler" style="position: relative; left:-205px; top:-50px;">
+                <label for=""style="position: relative; left: 20px; top:-73px;">BİLGİ VE İLETİŞİM TEKNOLOJİLERİ</label>
+            
+                <input type="radio" name="dersler" id="dersler" style="position: relative; left:-205px; top:-80px;">
+                <label for="" style="position: relative; left: 20px; top:-102px;">BEDEN EĞİTİMİ</label>
+
+                <input type="radio" name="dersler" id="dersler" style="position: relative; left:-205px; top:-110px;">
+                <label for=""style="position: relative; left: 20px; top: -132px;">FELSEFE</label>
+
+
+                <input type="text" name="adres" id="adres"  style="position: relative; top:-130px; padding:18px; width:390px;" >
+
+                <input type="text" name="veli" id="veli" placeholder="*" style="position: relative; top:-112px; width:418px;">
+
+                <input type="date" name="tarih" id="tarih" placeholder="*" style="position: relative; top:-85px; width:418px;">
+
+
+            </div>
+
+        </div>
+
+    </form>
+    
+</body>
+</html>
